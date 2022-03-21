@@ -1,9 +1,7 @@
 # KDSView
 Simple library for Kitchen Display System
 
-https://jitpack.io/#Usman-Nazir/KDSView/v0.0.1
-
-Installation:
+**Installation:**
 
 Add in root gradle:
 
@@ -22,7 +20,7 @@ Add in app gradle:
 
 
 
-Usage:
+**Usage:**
 
         var pageList: MutableList<PageItems> = arrayListOf()
         pageList.add(PageItems("", "", "", "", ""))
