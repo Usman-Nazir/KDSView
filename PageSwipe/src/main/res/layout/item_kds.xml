@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/statusColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/delayed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/orderStatus"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/postTime"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/currentTimeTime"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/counter1"
+                android:text="00:00"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:text="@string/order_no_05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvOrderNo1"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:textColor="@color/colorWhite"
+                android:layout_margin="8dp"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:text="9:00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvOrderTime1"
+                android:maxLines="1"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorWhite"
+                android:layout_margin="8dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:text="@string/order_type_dine_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvOrderType"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:textColor="@color/colorWhite"
+                android:layout_margin="8dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:text="@string/table_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTableNo"
+                android:maxLines="1"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorWhite"
+                android:layout_margin="8dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/outline"
+            android:scrollbars="vertical"
+            android:scrollbarThumbVertical="@color/colorPrimary"
+            android:scrollbarSize="5dp"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorGray"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:padding="6dp"
+                        android:text="@string/sr"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/view7"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorWhite" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="0.5"
+                        android:padding="6dp"
+                        android:text="@string/qty"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:visibility="gone"
+                        android:background="@color/colorWhite" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:padding="6dp"
+                        android:visibility="gone"
+                        android:text="@string/item_code"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorWhite" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:padding="6dp"
+                        android:text="@string/name"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/view8"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorWhite" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:padding="6dp"
+                        android:text="@string/note"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/itemContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <!-- <androidx.recyclerview.widget.RecyclerView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/rvKdsVp1"
+             android:layout_weight="1"
+             android:background="@drawable/outline"
+             tools:listitem="@layout/kds_list_item" />-->
+
+        <Button
+            android:text="@string/prepared"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/btnPrepared"
+            android:background="@drawable/btn_shape"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:text="@string/print"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/printOrder1"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/btn_shape"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

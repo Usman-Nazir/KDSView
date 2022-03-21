@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name" translatable="false">Oditar KDS</string>
+    <string name="valid_domain_info">Domain not valid, please enter valid domain</string>
+    //ActivityOrders
+
+    //ActivityMain
+    //Activity Menu
+    <string name="et_search_menu">Search by order id or order type</string>
+    //Activity Customers
+    //Activity UserManagement
+    //Activity Refund
+
+    <string-array name="printer_types">
+        <item>Please Select</item>
+        <item>Epson Printer</item>
+        <item>Bluetooth Printer</item>
+        <item>Others</item>
+    </string-array>
+
+    <string translatable="false" name="printerseries_m10">TM-m10 Series</string>
+    <string translatable="false" name="printerseries_m30">TM-m30 Series</string>
+    <string translatable="false" name="printerseries_p20">TM-P20 Series</string>
+    <string translatable="false" name="printerseries_p60">TM-P60 Series</string>
+    <string translatable="false" name="printerseries_p60ii">TM-P60II Series</string>
+    <string translatable="false" name="printerseries_p80">TM-P80 Series</string>
+    <string translatable="false" name="printerseries_t20">TM-T20 Series</string>
+    <string translatable="false" name="printerseries_t60">TM-T60 Series</string>
+    <string translatable="false" name="printerseries_t70">TM-T70 Series</string>
+    <string translatable="false" name="printerseries_t81">TM-T81 Series</string>
+    <string translatable="false" name="printerseries_t82">TM-T82 Series</string>
+    <string translatable="false" name="printerseries_t83">TM-T83 Series</string>
+    <string translatable="false" name="printerseries_t83iii">TM-T83III Series</string>
+    <string translatable="false" name="printerseries_t88">TM-T88 Series</string>
+    <string translatable="false" name="printerseries_t90">TM-T90 Series</string>
+    <string translatable="false" name="printerseries_t90kp">TM-T90KP Series</string>
+    <string translatable="false" name="printerseries_t100">TM-T100 Series</string>
+    <string translatable="false" name="printerseries_u220">TM-U220 Series</string>
+    <string translatable="false" name="printerseries_u330">TM-U330 Series</string>
+    <string translatable="false" name="printerseries_l90">TM-L90 Series</string>
+    <string translatable="false" name="printerseries_h6000">TM-H6000 Series</string>
+    <string translatable="false" name="preference_name">odit_pref</string>
+
+
+    <string name="support">Support</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="keep_youself_updated">Keep youself updated</string>
+    <string name="server_name">Server Name</string>
+    <string name="support_center">Support center</string>
+    <string name="admin">Admin</string>
+
+    <string name="print">Print</string>
+    <string name="qty">Qty</string>
+    <string name="general">General</string>
+    <string name="printers">Printers</string>
+    <string name="receipt">Receipt</string>
+    <string name="print_pool">Print Pool</string>
+    <string name="about_us">About us</string>
+    <string name="check_for_updates">Check for updates</string>
+    <string name="items_sorting">Items sorting</string>
+    <string name="sort_by_name">Sort by name</string>
+    <string name="sort_by_number">Sort by number</string>
+    <string name="you_have_no_printers_yet">You have no printers yet</string>
+    <string name="to_add_a_printer_press_the_button">To add a printer, Press the (+) button</string>
+    <string name="add_new_printer">Printer Setup</string>
+    <string name="printer_model">Printer Model</string>
+    <string name="ip_address">Ip address</string>
+    <string name="print_receipts">Print receipts</string>
+    <string name="order_receipts">Order receipts</string>
+    <string name="automatically_open_cash_drawer">Automatically open cash drawer</string>
+    <string name="test_print">Test Print</string>
+    <string name="delete">Delete</string>
+    <string name="add_printer">Add Printer</string>
+    <string name="invoice_setup">Invoice Setup</string>
+    <string name="logo">Logo</string>
+    <string name="select_logo">Select Logo</string>
+    <string name="company_name">Company Name</string>
+    <string name="location_address">Location Address</string>
+    <string name="phone">Phone</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="website">Website</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="branch_name">Branch Name</string>
+    <string name="note_sale_invoice">Note Sale Invoice</string>
+    <string name="tax_number">Tax Number</string>
+    <string name="note_for_return_voice">Note for Return Voice</string>
+    <string name="print_message">Print message</string>
+    <string name="preview_receipt">Preview Receipt</string>
+    <string name="kitchen_display_receipt">Kitchen Display Receipt</string>
+    <string name="language">Language</string>
+<!--    <string name="save">Save</string>-->
+    <string name="series_no">Series No</string>
+    <string name="invoice_no">Invoice No</string>
+    <string name="order_no">Order No</string>
+    <string name="printer_name">Printer Name</string>
+    <string name="action">Action</string>
+    <string name="select_language_">Select language</string>
+    <string name="password">Password</string>
+<!--    <string name="cancel">Cancel</string>-->
+<!--    <string name="name">Name</string>-->
+<!--    <string name="yes">Yes</string>-->
+<!--    <string name="no">No</string>-->
+<!--    <string name="note">Note</string>-->
+    <string name="done">Done</string>
+<!--    <string name="kitchen_display_system">Kitchen Display System</string>-->
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="printer_deleted">Printer deleted</string>
+
+
+    <string name="server_not_found">Server not configured</string>
+    <string name="enter_user_name">Please enter User name</string>
+    <string name="please_enter_password">Please enter Password</string>
+    <string name="oops_some_thing_wrong">Oops something went wrong</string>
+    <string name="please_check_internet_connection">Please check internet connection</string>
+    <string name="server_config_success">Server configured successfully</string>
+
+    <string name="no_printer_assigned">No Printer assigned to this group</string>
+
+
+    <string name="connected_">Connected</string>
+    <string name="not_connected_">Not Connected</string>
+    <string name="blue_tooth_printer">Bluetooth Printer</string>
+    <string name="other_printer_">Other Printer</string>
+    <string name="print_receipts_">Print Receipts:</string>
+    <string name="print_orders_">Print Orders:</string>
+    <!--<string name="print_orders_">Print Orders:</string>-->
+    <string name="logout_text">Logout</string>
+
+    <string name="bar_code_reader_text">Please Select Barcode</string>
+    <string name="barcode_">Barcode :</string>
+
+    <string name="no_printer_added">No printers added</string>
+
+    <string name="no_print_format_found">No Printer format found</string>
+    <string name="no_printer_found_">No Printer Found</string>
+
+    <string name="pod_">Printer Type</string>
+    <string name="item_groups">Item Groups:</string>
+    <string name="entry_deleted">All jobs deleted</string>
+    <string name="connection_failed">Connection Failed</string>
+
+    <string name="kitchen_display_system">Kitchen Display System</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="note">Note</string>
+    <string name="no">No</string>
+
+    <string name="yes_">Yes</string>
+    <string name="no_">No</string>
+
+    <string name="kds">KDS</string>
+    <string name="page_0_of_0">Page 0 of 0</string>
+    <string name="settings">Settings</string>
+    <string name="time_in_seconds">Time in seconds</string>
+    <string name="set">Set</string>
+    <string name="sound_notification">Sound Notification</string>
+    <string name="delayed">Delayed</string>
+    <string name="order_no_05">Order No: 05</string>
+    <string name="order_type_dine_in">Order Type: Dine In</string>
+    <string name="table_1">Table: 1</string>
+    <string name="app_exit">App Exit</string>
+    <string name="do_you_want_to_sign_out">Do you want to logout</string>
+
+    <string name="sr">Sr</string>
+    <string name="item_code">Item Code</string>
+    <string name="prepared">Prepared</string>
+    <string name="recall">Recall</string>
+    <string name="delay_color">Delay Color</string>
+    <string name="new_order_color">New Order Color</string>
+    <string name="cooking_color">Cooking Color</string>
+    <string name="time_wait">Time wait</string>
+    <string name="order_refresh_time">Order Refresh Time</string>
+    <string name="time_interval">Time interval</string>
+    <string name="order_notification_sound">Order Notification Sound</string>
+    <string name="select_file">Select File</string>
+    <string name="page_">Page </string>
+    <string name="of_"> of </string>
+    <string name="seconds_"> seconds</string>
+    <string name="min_"> min</string>
+    <string name="please_select_sound">Please Select Sound</string>
+
+    <string name="sounds"> seconds</string>
+    <string name="order_no_">Order No:</string>
+    <string name="table_no">Table: </string>
+    <string name="order_type_">Order Type:</string>
+    <string name="new_">New</string>
+    <string name="cooking_">Cooking</string>
+    <string name="delay_">Delay</string>
+    <string name="item_have_been_recalled">Item Have been Recalled</string>
+    <string name="nothing_to_recall">Nothing to Recall</string>
+    <string name="update_status_to_cooking">Please update status to cooking</string>
+    <string name="update_failed">Status update failed</string>
+    <string name="printing_">Printing</string>
+    <string name="status_update_failed">Status update failed</string>
+    <string name="item_have_been_called">Item Have been Recalled</string>
+    <string name="settings_">Settings</string>
+    <string name="kds_">KDS</string>
+
+
+    <array name="order_typee">
+        <item>Dine in</item>
+        <item>Take Away</item>
+        <item>Delivery</item>
+    </array>
+
+
+    <array name="langauges_">
+        <item>English</item>
+        <item>عربي</item>
+    </array>
+
+
+</resources>
