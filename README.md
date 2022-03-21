@@ -1,6 +1,26 @@
 # KDSView
 Simple library for Kitchen Display System
 
+https://jitpack.io/#Usman-Nazir/KDSView/v0.0.1
+
+Installation:
+
+Add in root gradle:
+
+        allprojects {
+	        repositories {
+		        maven { url 'https://jitpack.io' }
+	        }
+        }
+        
+Add in app gradle:
+
+
+	dependencies {
+                implementation 'com.github.Usman-Nazir:KDSView:v0.0.1'
+	}
+
+
 
 Usage:
 
